@@ -1,5 +1,5 @@
 # Mambosdabanda.ProjWeb
-# g13.Mambos-da-banda
+# Mambos-da-banda
 Mambos da banda é o tema que dá continuação do projecto de desenvolvimento móvel do 1ºsemestre. Uma aplicação web que permite a compra e venda de produtos alimenticios típicos angolanos para a confessão de pratos típicos angolanos
 
 
