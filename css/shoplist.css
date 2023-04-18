@@ -1,0 +1,57 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body > header {
+    background-color: lightslategray;
+    margin: 0;
+    padding: 5px;
+    display:flex;    
+    align-items: center;
+}
+
+body > header img, body> header nav{
+    width: 20%;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+body> header nav{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+body> header nav section{
+    width: 150px;
+    padding: 20px;
+    border: 2px solid red;
+    background-color: gray; 
+    text-align: center;
+}
+
+
+body> header section.title {
+    width: max(60%, calc(100% - 600px));
+    text-align: center;
+}
+
+
+/* Shop lists boxes */
+
+#shoplists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;  
+  align-items: center;
+}
+
+#shoplists li {
+    margin: 5px;
+    padding: 5px;
+    width: 40%;
+    background-color: chocolate;
+    color:white;
+    font-size: large;
+}

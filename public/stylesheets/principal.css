@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background: beige;
+}
+
+
+
+/*
+**** layout ****
+*/
+
+header{
+    height: min-content;
+    background: linear-gradient(-45deg, #f3b311, #f16e16);
+    box-sizing: content-box;
+    display: flex;
+    margin: 100;
+    margin-bottom: 20px;
+}
+
+#logo{
+    padding: 0;
+}
+
+/*formatar menu*/
+#menu{
+    padding-right: 5px;
+    text-align: right;
+}
+
+a:link, a:visited{
+    color:bisque;
+    padding: 8px 12px;
+}
+
+a:hover{
+    color:#f16e16;
+    background: bisque;
+}
+
+/*formatar diversos*/
+h1{
+    color:bisque;
+    text-align: left;
+    font-size: 2.5em;
+    width: max(60%, calc(100% - 600px));
+}
+
+#conteudo > h1{
+    color:bisque;
+    text-align: center;
+    font-size: 2.5em;
+    width: max(60%, calc(100% - 600px));
+}
+
+header  h1{
+    color:bisque;
+    text-align: center;
+    font-size: 2.5em;
+    width: max(60%, calc(100% - 600px));
+}
+
+/* Shop lists boxes */
+
+#shoplists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    align-items: center;
+}
+  
+#shoplists li {
+    margin: 5px;
+    padding: 5px;
+    width: 40%;
+    background-color: chocolate;
+    color:white;
+    font-size: large;
+}
+
+/* Items */
+
+#items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    align-items: center;
+}
+  
+#items li {
+      margin: 5px;
+      padding: 5px;
+      width: 40%;
+      background-color: chocolate;
+      color:white;
+      font-size: large;
+      display: flex;  
+      align-items: flex-start;
+}
+  
+
+#items li img {
+    width: 50%;
+    margin-right: 5px;
+}
+
+
+
+#conteudo
+{
+    padding: 10px;
+    background: beige;
+}
+
+.opcoes
+{ 
+    background-color: antiquewhite;
+    padding: 18px;
+    text-align: center;
+}
+
+.opcoes a
+{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid orange;
+    padding: 5px;
+}
+
+#conteudo
+{
+    padding: 10px;
+    background: beige;
+}
+
+#rodape
+{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+/*TABELA*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}

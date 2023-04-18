@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet"   type="text/css"  href="./stylesheets/principal.css"/>
+    <link  rel="stylesheet"   type="text/css"  href="./stylesheets/index.css"/>
+    <link  rel="stylesheet"   type="text/css"  href="./stylesheets/style.css"/>
+    <title>Principal</title>
+    <script src="./javascripts/.js"></script>
+</head>
+<body>
+    <header>
+        <section id="logo">
+            <img src="imagens/logo.png" width="70">
+        </section>
+
+        <section id="texto">
+            <h1>LOJAS</h1>
+        </section>
+
+        <section id="menu">
+            <a href="login.html">Entrar</a>
+                <a href="areapessoal.html">Área Pessoal</a>
+                <a href="lojas.html">Principal</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="carrinho.html">Carrinho</a>
+        </section>
+    </header>
+
+    <main id="items">
+        <table id="tabela">
+            
+        </table>
+    </main>
+
+    <form action="javascript:addItem()">
+    <h2> Insert a new item:</h2>
+    <p> Product: <select id="prodId"></select></p>
+    <p> Quantity: <input type="number" id="quant"></p>
+    <input type="submit" value="Insert item">
+</form>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registo</title>
+    <link  rel="stylesheet"   type="text/css"  href="stylesheets/registoLojas.css"/>
+    <link  rel="stylesheet"   type="text/css"  href="stylesheets/menu.css"/>
+    <link  rel="stylesheet"   type="text/css"  href="stylesheets/style.css"/>
+    <script src="./javascripts/utils/verifications.js"></script>
+    <script src="./javascripts/requests/lojaRequests.js"></script>
+    <script src="./javascripts/lojaRegister.js"></script>
+    <script src="./javascripts/utils/verifications.js"></script>
+
+</head>
+<body>
+
+    <header>
+        <section class="logo"> <img src="imagens/logo.png" width="70" /> </section><!--logo-->
+    </header>
+
+    <section id="form">
+        <form action="javascript:lojaRegister()">
+           
+            <section class="title">
+                <h2>Registo de Loja</h2>
+            </section>
+
+            <label for="">Nome</label>
+            <section class="input">
+                <i class="fa-regular fa-circle-user"></i>
+                <input id="nome" name="Nome" placeholder="Nome" type="text">
+            </section>
+
+            <label for="">Email</label>
+            <section class="input">
+                <i class="fa-regular fa-envelope"></i>
+                <input id="email" name="Email" placeholder="Email" type="email">
+            </section>
+
+            <label for="">Palavra Passe</label>
+            <section class="input">
+                <i class="fa-solid fa-lock"></i>
+                <input id="palavraPasse" name="Palavra Passe" placeholder="Palavra Passe" type="password">
+            </section>
+
+            <label for="">Contacto</label>
+            <section class="input">
+                <i class="fa-solid fa-lock"></i>
+                <input id="Contacto" name="Contacto" placeholder="Contacto" type="number">
+            </section>
+
+            <label for="">Endereço</label>
+            <section class="input">
+                <i class="fa-solid fa-lock"></i>
+                <input id="Endereco" name="Endereco" placeholder="Endereco" type="text">
+            </section>
+
+            <label for="">Código</label>
+            <section class="input">
+                <i class="fa-solid fa-lock"></i>
+                <input id="cpostal" name="Codigo Postal" placeholder="Codigo Postal" type="text">
+            </section>
+
+            <section class="botao">
+                <button type="submit"> Registar </button>
+            </section>
+
+           
+        </form>
+    </section><!--form-->
+</body>
+</html>
